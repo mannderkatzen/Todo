@@ -1,0 +1,7 @@
+<div>
+    Detailed View
+    <mat-list *ngFor="let item of todo_list;let idx=index" dense >
+        <mat-list-item>{{idx+1}}. Title : {{item.title}} Date : {{item.date}} 
+            Desc : {{item.desc}} </mat-list-item>
+    </mat-list>
+</div>

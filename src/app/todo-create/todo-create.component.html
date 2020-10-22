@@ -1,0 +1,6 @@
+<mat-form-field><input matInput placeholder="Title" [(ngModel)]="val"></mat-form-field><br>
+  <mat-form-field><input matInput placeholder="Date" [(ngModel)]="date"></mat-form-field><br>
+  <mat-form-field><textarea matInput placeholder="Description" [(ngModel)]="desc"></textarea></mat-form-field><br>
+  <button mat-raised-button (click)="add()">Add</button><br>
+  <mat-form-field><input matInput placeholder="Index to delete" [(ngModel)]="del_id"></mat-form-field><br>
+  <button mat-raised-button (click)="delete()">Delete</button><br><br>
